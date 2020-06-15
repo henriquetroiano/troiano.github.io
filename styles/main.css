@@ -13,8 +13,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  height: 99vh;
-  width: 99vw;
+  height: 100vh;
+  width: 100vw;
 }
 
 /*  background config */
@@ -24,12 +24,7 @@ body {
 }
 
 .none {
-  /* display: flex; */
-  /* opacity: 0; */
-  /* z-index: -100; */
-  /* position: absolute;
-  top: 0;
-  left: -100vh; */
+
   margin-left: -100vw;
   transition: 1s;
 }

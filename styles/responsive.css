@@ -1,1 +1,81 @@
+@media (orientation: portrait) {
 
+    .none {
+        position: fixed;
+        top: -100vh;
+        transition: 1s;
+      }
+
+
+    .menu {
+        /* border: 1px solid black; */
+        width: 100vw;
+    }
+
+    .content {
+        /* border: 1px solid black; */
+
+        width: 100vw;
+        height: 40vh;
+        min-height: 236px;
+    }
+
+    .content img {
+        margin-top: 3vh;
+        border-radius: 50%;
+        width: 10vw;
+        min-width: 100px;
+        height: auto;
+    }
+
+    .content h1 {
+        /* border: 1px solid black; */
+        margin-bottom: -15px;
+        font-size: 1.2rem;
+        font-weight: 400;
+      }
+      
+      .content h2 {
+        /* border: 1px solid black; */
+      
+        font-size: 0.8rem;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .content button {
+        background-color: black;
+        border: 0;
+        border-radius: 5px;
+        color: yellow;
+        font-size: 0.8rem;
+        padding: 0.8rem;
+      }
+
+      .submenu {
+        /* border: 1px solid black; */
+
+        width: 99vw;
+        height: 50vw;
+        
+      }
+
+      .background {
+        position: absolute;
+        top: 40vh;
+
+        right: 0;
+        border: 1px solid black;
+        width: 100vw;
+        height: 59vh;
+
+        background: url("/assets/1.svg") no-repeat;
+        background-position: center;
+        background-size: 50vw;
+        
+        
+        z-index: -10;
+      }
+
+    
+}

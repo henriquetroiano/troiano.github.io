@@ -10,36 +10,14 @@
 }
 
 .content {
+  /* border: 1px solid black; */
   position: relative;
   top: 0;
   left: 0;
   width: 25vw;
-  min-width: 300px;
-  background: linear-gradient(
-    to right,
-    rgb(236, 236, 2),
-    rgb(236, 236, 2),
-    rgb(236, 236, 2),
-    rgb(236, 236, 2),
-    rgb(236, 236, 2),
-    rgb(236, 236, 2),
-    rgb(236, 236, 2),
-    rgb(236, 236, 2),
-    rgb(236, 236, 2),
-    rgb(236, 236, 2),
-    rgb(236, 236, 2),
-    rgb(236, 236, 2),
-    rgb(236, 236, 2),
-    rgb(236, 236, 2),
-    rgb(236, 236, 2),
-    rgb(236, 236, 2),
-    rgb(236, 236, 2),
-    rgb(236, 236, 2),
-    rgb(236, 236, 2),
-    rgb(236, 236, 2),
-    rgb(236, 236, 2),
-    rgba(236, 236, 2, 0.452)
-  );
+  /* min-width: 300px; */
+  background:  rgb(236, 236, 2);
+  
   height: 100vh;
 
   transition: 0.5s;
@@ -51,6 +29,7 @@
   width: 10vw;
   min-width: 125px;
   height: auto;
+  margin-top: 25vh;
 }
 
 .content h1 {
@@ -84,30 +63,47 @@
   color: black;
 }
 
+
+.submenu {
+  position: absolute;
+  top: 0;
+  left: 25vw;
+  width: 15vw;
+  min-width: 200px;
+  height: 100vh;
+  background-color: rgb(236, 236, 2);
+  
+
+}
+
 .expanded {
   display: flex;
   flex-direction: column;
-  padding: 20vh 15px 0 15px;
-  background-color: rgb(236, 236, 2);
-
-  width: 100%;
   height: 100vh;
-  position: absolute;
-  top: 0;
-  margin-left: 25vw;
-  transition: 0.5s;
+  border-left: 1px solid black;
+
+
+  
 }
 
-.expanded p {
-  border-bottom: 1px solid black;
-  padding: 10px;
-  transition: 1s;
-  /* background: black; */
+.expanded a {
+  /* border: 1px solid black; */
+  text-align: center;
+  text-decoration: none;
   color: black;
-  cursor: pointer;
+  padding: 1rem;
+  transition: 0.8s;
+  
 }
 
-.expanded p:hover {
-  background: rgba(255, 68, 0, 0.849);
-  color: black;
+.expanded a:hover {
+  border-radius: 10px;
+  background: black;
+  color: yellow;
 }
+
+.expanded a:first-child {
+  margin-top: 25vh;
+}
+
+
