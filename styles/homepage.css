@@ -1,0 +1,18 @@
+.background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* border: 1px solid black; */
+  width: 75vw;
+  height: 100vh;
+
+  background: url("/assets/1.svg") no-repeat;
+  background-position: center;
+  background-size: 60% 70%;
+  z-index: -10;
+}
+
+/* .skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+} */
