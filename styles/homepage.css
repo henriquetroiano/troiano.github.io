@@ -6,7 +6,7 @@
   width: 75vw;
   height: 100vh;
 
-  background: url("assets/1.svg") no-repeat;
+  background: url("../assets/1.svg") no-repeat;
   background-position: center;
   background-size: 60% 70%;
   z-index: -10;
