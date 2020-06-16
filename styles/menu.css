@@ -72,22 +72,21 @@
   min-width: 200px;
   height: 100vh;
   background-color: rgb(236, 236, 2);
-  
-
 }
 
 .expanded {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-content: center;
   height: 100vh;
   border-left: 1px solid black;
-
-
-  
 }
 
 .expanded a {
   /* border: 1px solid black; */
+  border-bottom: 1px solid black;
+  margin: 0 10vw 0 10vw;
   text-align: center;
   text-decoration: none;
   color: black;
@@ -96,14 +95,13 @@
   
 }
 
+
 .expanded a:hover {
   border-radius: 10px;
   background: black;
   color: yellow;
 }
 
-.expanded a:first-child {
-  margin-top: 25vh;
-}
+
 
 
