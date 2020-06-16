@@ -16,7 +16,7 @@
   left: 0;
   width: 25vw;
   /* min-width: 300px; */
-  background:  rgb(236, 236, 2);
+  background:  rgb(85, 146, 182);
   
   height: 100vh;
 
@@ -71,7 +71,7 @@
   width: 15vw;
   min-width: 200px;
   height: 100vh;
-  background-color: rgb(236, 236, 2);
+  background:  rgb(85, 146, 182);
 }
 
 .expanded {
@@ -86,12 +86,13 @@
 .expanded a {
   /* border: 1px solid black; */
   border-bottom: 1px solid black;
-  margin: 0 10vw 0 10vw;
+  margin: 0 20vw 0 20vw;
   text-align: center;
   text-decoration: none;
   color: black;
   padding: 1rem;
   transition: 0.8s;
+
   
 }
 

@@ -6,6 +6,7 @@
       margin-top: -150vh;
       transition: 1s;
   }
+
   .content {
     width: 100vw;
     height: 40vh;
@@ -29,6 +30,7 @@
     font-size: 1rem;
     padding: 0.75rem;
     color: whitesmoke;
+    z-index: 500;
   }
 
   .submenu {
@@ -43,6 +45,8 @@
     height: auto;
     /* border-top: 1px solid black; */
     border-left: none;
+    
+
   }
 
   .expanded a {
@@ -50,9 +54,8 @@
     border-bottom: none;
     border-radius: 8px;
     background: black;
-    margin-bottom: 2vh;
+    margin: 2vh 10vh 2vh 10vh;
     color: whitesmoke;
-
   }
 
 
@@ -66,8 +69,9 @@
   
     background: url("../assets/1.svg") no-repeat;
     background-position: center;
-    background-size: 60% 70%;
+    background-size: 65vw;
     z-index: -10;
+    
   }
 
 
