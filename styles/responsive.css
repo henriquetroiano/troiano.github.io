@@ -28,6 +28,7 @@
   .content button {
     font-size: 1rem;
     padding: 0.75rem;
+    color: whitesmoke;
   }
 
   .submenu {
@@ -40,13 +41,20 @@
   
   .expanded {
     height: auto;
-    border-top: 1px solid black;
+    /* border-top: 1px solid black; */
     border-left: none;
   }
 
-  .expanded a:last-child {
+  .expanded a {
+    /* background: black; */
+    border-bottom: none;
+    border-radius: 8px;
+    background: black;
     margin-bottom: 2vh;
+    color: whitesmoke;
+
   }
+
 
   .background {
     position: absolute;
